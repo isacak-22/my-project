@@ -1,0 +1,71 @@
+.menu-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.menu-item {
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.menu-icon {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.menu-item:hover {
+  background-color: #d1f2e0;
+  color: #198754;
+  transform: translateX(5px);
+}
+
+.active-menu {
+  background-color: #198754;
+  color: white;
+}
+
+.book-card img {
+  transition: 0.3s ease;
+}
+
+.book-card:hover img {
+  transform: scale(1.05);
+}
+
+.card strong {
+  color: #198754;
+}
+
+.journal-main-card {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.journal-main-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.journal-image {
+  height: 250px;
+  object-fit: contain;
+  transition: 0.3s ease;
+}
+
+.journal-main-card:hover .journal-image {
+  transform: scale(1.05);
+}
+
+.para{
+    line-height: 1.5;
+    font-weight: 500;
+    padding-top: 10px;
+}

@@ -1,0 +1,40 @@
+.conference-header {
+  background-color: #8cc63f;
+  padding: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.breadcrumb-text a {
+  color: #8cc63f;
+  text-decoration: none;
+}
+
+.conference-title {
+  color: #8cc63f;
+  margin-top: 20px;
+}
+
+.conference-card {
+  background: #eeeeee;
+  padding: 40px 25px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  height: 100%;
+}
+
+.conference-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.icon-box {
+  font-size: 45px;
+  color: #8cc63f;
+  margin-bottom: 20px;
+}
+
+.conference-card p {
+  text-align: justify;
+  line-height: 1.8;
+}
