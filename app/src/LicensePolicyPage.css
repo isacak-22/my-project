@@ -1,0 +1,88 @@
+/* Top Header */
+.license-top-header {
+  background-color: #8bc34a;
+  color: white;
+  padding: 35px 0;
+  text-align: center;
+}
+
+/* Container */
+.license-container {
+  width: 85%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+/* Breadcrumb */
+.license-breadcrumb {
+  margin-bottom: 25px;
+  color: #6c757d;
+}
+
+.license-breadcrumb a {
+  text-decoration: none;
+  color: #8bc34a;
+  font-weight: 500;
+}
+
+.license-go-back {
+  color: #8bc34a;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Layout */
+.license-content-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+/* Sidebar */
+.license-sidebar {
+  width: 280px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.license-sidebar h4 {
+  color: #8bc34a;
+  margin-bottom: 15px;
+}
+
+.license-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.license-sidebar li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.license-sidebar li:hover {
+  color: #8bc34a;
+}
+
+/* Main Content */
+.license-main-content {
+  flex: 1;
+}
+
+.license-main-content h2 {
+  color: #8bc34a;
+  margin-bottom: 15px;
+}
+
+.license-main-content h3 {
+  color: #8bc34a;
+  margin-top: 10px;
+}
+
+.license-main-content h5 {
+  margin-top: 20px;
+  font-weight: 600;
+}

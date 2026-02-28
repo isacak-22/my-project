@@ -1,0 +1,21 @@
+.policy-header {
+  background-color: #8cc63f;
+  padding: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.breadcrumb-text a {
+  color: #8cc63f;
+  text-decoration: none;
+}
+
+.policy-content {
+  text-align: justify;
+  line-height: 1.9;
+  font-size: 16px;
+}
+
+.policy-content p {
+  margin-bottom: 20px;
+}
